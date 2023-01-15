@@ -30,7 +30,6 @@ while(timer>0):
         print("Time remaning ",time.gmtime(timer)[3],":",time.gmtime(timer)[4],":",time.gmtime(timer)[5])
         break
       elif(a=="3"):
-          a=msvcrt.getwch()
           while(a!="4"):
             a=msvcrt.getwch()
             if(a!="4"):
